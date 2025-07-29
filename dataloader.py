@@ -53,7 +53,6 @@ class NuclearMassDataset(Dataset):
                 self.data = val_df.reset_index(drop=True)
 
         else:
-            # test gibi durumlarda stratify kullanılmaz
             self.data = self.data.reset_index(drop=True)
 
 
